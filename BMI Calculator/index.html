@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="bmi">BMI Calculator</h1>
+    <form>
+        <div class="form-div">
+            <label for="height">Height :</label>
+            <input type="text" id="height" placeholder="Height in feet">
+        </div>
+        <br>
+        <div class="form-div">
+            <label for="weight">Weight :</label>
+            <input type="text" id="weight" placeholder="Weight in kilogram">
+        </div>
+        <br>
+        <button>Calculate</button>
+    </form>
+
+    <div class="result">your result display here</div>
+    <h2>According to WHO BMI Classification, the BMI range is:</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>BMI Range</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&lt 18.5</td>
+                <td>Underweight</td>
+            </tr>
+            <tr>
+                <td>18.5 - 24.9</td>
+                <td>Normal Weight</td>
+            </tr>
+            <tr>
+                <td>25 - 29.9</td>
+                <td>Overweight</td>
+            </tr>
+            <tr>
+                <td>30 - 34.9</td>
+                <td>Obese (Class 1)</td>
+            </tr>
+            <tr>
+                <td>35 - 39.9</td>
+                <td>Obese (Class 2)</td>
+            </tr>
+            <tr>
+                <td>≥ 40</td>
+                <td>Obese (Class 3 - Severe)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

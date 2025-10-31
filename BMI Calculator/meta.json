@@ -1,0 +1,5 @@
+{
+    "title": "BMI Calculator",
+    "description": "A simple and responsive BMI (Body Mass Index) Calculator built using HTML, CSS, and JavaScript.It helps users calculate their BMI instantly and understand whether they fall under the underweight, normal, overweight, or obese category.",
+    "image": "./image.png"
+  }
