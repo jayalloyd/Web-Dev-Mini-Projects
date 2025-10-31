@@ -1,5 +1,5 @@
 {
     "title": "Keyboard Checker",
     "description": "Keyboard Checker is a simple and interactive web app built to detect and display real-time keyboard input. It shows details like which key was pressed, its key, keyCode, and code values — helping users and developers understand how keyboard events work in JavaScript.",
-    "image": ["./images/image1.png","./images/image2.png"]
+    "image": ["preview.png"]
   }
