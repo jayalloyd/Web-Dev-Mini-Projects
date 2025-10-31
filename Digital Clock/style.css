@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4vw;
+    
+
+}
+
+#clock{
+    color: greenyellow;
+    font-size: 13.5vw;
+    background-color: #00008B;
+    padding: 1.6vw 1vw;
+    border-radius: 1vw;
+    border: 2px solid greenyellow;
+
+}
+
+h1{
+    color: greenyellow;
+    font-size: 3vw;
+}
