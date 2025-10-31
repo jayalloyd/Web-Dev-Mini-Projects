@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+    background-color: #121211;
+    color: aliceblue;
+}
+
+
+#project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 30px;
+
+}
+
+th,td {
+    border: 2px solid white;
+    text-align: center;
+    font-size: 4vw;
+    
+
+}
+
+th{
+    color: orange;
+}
+
+table{
+    border-collapse:collapse ;
+    width: 50vw;
+    height: 25vw;
+    box-shadow: 5px 5px 50px  20px orange;
+}
+
+#key{
+    font-size: 5vw;
+    color: orange;
+}
