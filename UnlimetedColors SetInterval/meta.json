@@ -1,5 +1,5 @@
 {
-    "title": "unlimetedColors setInterval",
-    "description": "A simple and fun JavaScript project that changes the background color automatically at intervals using setInterval(). Built with HTML, CSS, and JavaScript — perfect for beginners learning DOM manipulation and timing functions.",
-    "image": "./image.png"
+    "title": "unlimitedColors setInterval",
+    "description": "This project changes the background color automatically at intervals using setInterval().",
+    "image": "image.png"
   }
