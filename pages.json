@@ -1,9 +1,11 @@
 [
     "3D Image Gallery",
     "Bookmark-Saver",
+    "BMI Calculator",
     "Cat Painting",
     "Color Chaos Game",
     "CricQuiz",
+    "Digital Clock",
     "Expense Tracker",
     "Emoji Word Translator",
     "Flower Gallery",
@@ -11,6 +13,7 @@
     "Gradient Generator",
     "Guess The color",
     "Hand Cricket",
+    "Keyboard Checker",
     "Magazine",
     "Mini E Commerce",
     "Movie Journal",
@@ -37,9 +40,6 @@
     "Bitwise Lab",
     "WordCanvas",
     "Lightbox Photo Gallery",
-    "Password Security Analyzer",
-    "Keyboard Checker",
-    "BMI Calculator",
-    "Digital Clock",
-    "UnlimetedColors SetInterval"
+    "Password Security Analyzer",  
+    "UnlimitedColors SetInterval"
 ]
