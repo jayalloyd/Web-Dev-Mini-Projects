@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tetris Game</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <h2>Score: 0</h2>
+  
+  <div id="game-container">
+    <div id="next-container">
+      <h3>Next Piece</h3>
+      <canvas id="next" width="120" height="120"></canvas>
+      <div id="controls-box">
+        <h4>Controls</h4>
+        <ul>
+          <li><strong>Arrow Down:</strong> Move piece down faster</li>
+          <li><strong>Arrow Left:</strong> Move piece left</li>
+          <li><strong>Arrow Right:</strong> Move piece right</li>
+          <li><strong>Arrow Up:</strong> Rotate piece</li>
+        </ul>
+      </div>
+    </div>
+    <canvas id="tetris" width="300" height="600"></canvas>
+  </div>
+
+  <div id="instructions">
+    <h1>TETRIS INSTRUCTIONS</h1>
+    <p>Welcome to Tetris!</p>
+    <p>
+      <strong>Objective:</strong> Arrange falling blocks (Tetrominoes) to form
+      complete lines. When a line is complete, it disappears and you earn points.
+      The game ends when the blocks reach the top.
+    </p>
+    <p><strong>Controls:</strong></p>
+    <ul>
+      <li><strong>Arrow Down:</strong> Move piece down faster</li>
+      <li><strong>Arrow Left:</strong> Move piece left</li>
+      <li><strong>Arrow Right:</strong> Move piece right</li>
+      <li><strong>Arrow Up:</strong> Rotate piece</li>
+    </ul>
+    <p><strong>Scoring:</strong></p>
+    <ul>
+      <li>Clearing 1 line = +10 points</li>
+      <li>Clearing 2 lines = +30 points</li>
+      <li>Clearing 3 lines = +50 points</li>
+      <li>Clearing 4 or more lines = +100 points</li>
+    </ul>
+    <button id="startButton">Start Game</button>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
